@@ -1,0 +1,157 @@
+.container {
+  max-width: 960px;
+
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  
+  opacity: 0.9;
+  background: repeating-linear-gradient( #D6EAF8 , #EFF3FC 5px);
+  
+}
+
+
+.site-header a {
+  color:#483C32;
+  transition: ease-in-out color .15s;
+  font-family: Times News Roman;
+  margin-left: 100px;
+  
+}
+.site-header a:hover {
+  color:#483C32;
+  text-decoration: none;
+
+}
+nav:hover{
+   opacity: 0.9;
+  background: repeating-linear-gradient( #D6EAF8, #233B72 5px);
+}
+
+/*
+ * 
+ */
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+  
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+.color1{
+background: repeating-linear-gradient(#D6EAF8, #233B72 5px);
+color:#483C32;
+ font-family: Times News Roman;
+
+}
+.color2{
+  background:repeating-linear-gradient( #D6EAF8 , #EFF3FC 5px);
+  color:#483C32;
+ font-family: Times News Roman;
+}
+.tipoletra{
+ color:#483C32;
+ font-family: Times News Roman;
+}
+.imagenesb{
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.imagenesb:hover{
+ transform: scale(1.2);
+}
+.salas{
+  padding: 10px;
+  box-shadow: 0 0 6px 1px;
+
+}
+.salas img{
+  margin-top: 40px;
+  margin-left: 12px;
+  border-radius: 10px;
+  box-shadow: 0 0 6px 5px #9E9FA0;
+   
+
+}
+.salas a{
+  color:#483C32;
+ font-family: Times News Roman;
+}
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
+
+/*comienza estilos de bases de datos*/
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+section {
+  
+  width: 80%; /* Ancho de la sección */
+    padding: 20px; /* Espacio interno de la sección */
+    background-color: #f0f0f0; /* Color de fondo de la sección */
+    border: 2px solid #ccc; /* Borde de la sección */
+    text-align: center; /* Alineación del contenido */
+    margin-left: 200px;
+    margin-bottom: 200px;
+}
+
